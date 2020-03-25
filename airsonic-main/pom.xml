@@ -364,7 +364,8 @@
             <artifactId>lastfm-java</artifactId>
             <version>0.1.2</version>
         </dependency>
-
+        
+        <!-- https://mvnrepository.com/artifact/de.triology.recaptchav2-java/recaptchav2-java -->
         <dependency>
             <groupId>de.triology.recaptchav2-java</groupId>
             <artifactId>recaptchav2-java</artifactId>

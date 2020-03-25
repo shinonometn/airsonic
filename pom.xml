@@ -23,6 +23,11 @@
 
     <repositories>
         <repository>
+            <id>central</id>
+            <name>Maven Central</name>
+            <url>https://repo1.maven.org/maven2/</url>
+        </repository>
+        <repository>
             <id>local1</id>
             <name>Local Repository</name>
             <url>file://${project.basedir}/../repo</url>
@@ -308,7 +313,7 @@
                             <id>validate</id>
                             <phase>validate</phase>
                             <configuration>
-                                <sourceEncoding>utf-8</sourceEncoding>
+<!--                                <sourceEncoding>utf-8</sourceEncoding>-->
                             </configuration>
                             <goals>
                                 <goal>check</goal>
